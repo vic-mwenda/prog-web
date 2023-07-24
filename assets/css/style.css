@@ -513,7 +513,7 @@ height: 30px;
 }
 
 #hero .btn-get-started:hover {
-  background: #5fcf80;
+  background: rgb(192, 111, 11);
   border: 2px solid #5fcf80;
 }
 
