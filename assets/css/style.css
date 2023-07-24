@@ -366,6 +366,9 @@ height: 30px;
   .navbar ul {
     display: none;
   }
+  .navbar li a {
+    color: #000;
+  }
 }
 
 .navbar-mobile {
