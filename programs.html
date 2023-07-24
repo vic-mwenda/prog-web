@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Zetech University | Zero To one coding program website</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/logo-free2.png" rel="icon">
+  <link href="assets/img/logo-free2.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css" rel="stylesheet" />
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <img src="assets/img/logo-freer.png" class="logo me-auto img-fluid" height="20" alt="">
+      
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="programs.html">Program</a></li>
+          <li><a href="trainers.html">Trainers</a></li>
+          <li><a href="resources.html">resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a data-modal-target="authentication-modal" data-modal-toggle="authentication-modal" class="cursor-pointer get-started-btn">Get Started</a>
+
+<!-- Main modal -->
+<div id="authentication-modal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div class="relative w-full max-w-md max-h-full">
+        <!-- Modal content -->
+        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+            <button type="button" class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="authentication-modal">
+                <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+                </svg>
+                <span class="sr-only">Close modal</span>
+            </button>
+            <div class="px-6 py-6 lg:px-8">
+              <h3 class="mb-4 text-xl font-medium text-gray-900 dark:text-white">Program Application</h3>
+              <form class="space-y-6" action="#">
+                  <div>
+                      <label for="full-name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Full Name</label>
+                      <input type="text" name="full-name" id="full-name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="John Doe" required>
+                  </div>
+                  <div>
+                      <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email Address</label>
+                      <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="name@email.com" required>
+                  </div>
+                  <div>
+                      <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone Number</label>
+                      <input type="tel" name="phone" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="+254 712 345 467" required>
+                  </div>
+                  <div>
+                      <label for="experience" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Coding Experience (in months)</label>
+                      <input type="number" name="experience" id="experience" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" required>
+                  </div>
+                  <div>
+                      <label for="programming-languages" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Preferred Programming Languages (comma-separated)</label>
+                      <input type="text" name="programming-languages" id="programming-languages" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" required>
+                  </div>
+                  <button type="submit" class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 cursor-pointer">Submit Application</button>
+              </form>
+          </div>
+        </div>
+    </div>
+</div> 
+
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs" data-aos="fade-in">
+      <div class="container">
+        <h2>Program Details</h2>
+        <p>Our program is designed to equip aspiring developers with the essential skills,
+           knowledge, and confidence to transition from zero coding experience to competent 
+           software engineers. Whether you are a complete beginner or someone with limited 
+           programming knowledge, this mentorship program is your stepping stone towards a 
+           successful software development journey.</p>
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+    <section class="py-12">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-semibold text-center mb-6">Program Overview: Zero to One Coding Mentorship Program</h2>
+        <p class="text-gray-600 text-center mb-8">Welcome to our transformative 12-week software coding mentorship program,
+          "Zero to One Coding." Our program is designed to equip aspiring developers with the essential skills,
+          knowledge, and confidence to transition from zero coding experience to competent software engineers. Whether
+          you are a complete beginner or someone with limited programming knowledge, this mentorship program is your
+          stepping stone towards a successful software development journey.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold mb-4">Empowering Beginners</h3>
+            <p class="text-gray-600">Our primary objective is to empower individuals who are new to coding or have minimal
+              experience in software development. We believe that anyone can become a proficient coder with the right
+              guidance and support.</p>
+          </div>
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold mb-4">Hands-on Learning</h3>
+            <p class="text-gray-600">Throughout the 12 weeks, participants will engage in practical, hands-on learning
+              experiences. Our mentors will guide you through real-world projects and exercises, ensuring you gain a deep
+              understanding of fundamental coding concepts.</p>
+          </div>
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold mb-4">Building Strong Foundations</h3>
+            <p class="text-gray-600">We focus on laying strong foundations in programming languages, algorithms, data
+              structures, and problem-solving techniques. These core skills are crucial for a successful career in
+              software development.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mx-auto py-8">
+      <h2 class="text-3xl font-bold text-gray-900 dark:text-white">Curriculum</h2>
+      <p class="mt-4 text-gray-500 dark:text-gray-400">Our curriculum is thoughtfully crafted to provide a well-rounded and comprehensive learning experience. It is tailored for beginners, starting from the basics and gradually progressing to more advanced topics. The curriculum includes:</p>
+      <div class="row mt-2">
+        <div class="col-md-6">
+          <ol class="relative border-l border-gray-200 dark:border-gray-700 mt-6 max-w-md">
+        <li class="mb-10 ml-6">            
+          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+            <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+            </svg>
+          </span>
+          <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Introduction to Programming</h3>
+          <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Covering fundamental programming concepts and syntax in popular languages like Python and JavaScript.</p>
+        </li>
+        <li class="mb-10 ml-6">
+          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+            <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+            </svg>
+          </span>
+          <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Web Development</h3>
+          <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Exploring front-end technologies (HTML, CSS, JavaScript) and back-end development with Node.js or Django.</p>
+        </li>
+        <li class="mb-10 ml-6">
+          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+            <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+            </svg>
+          </span>
+          <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Data Structures and Algorithms</h3>
+          <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Understanding essential data structures (arrays, linked lists, trees) and algorithms to solve coding challenges efficiently.</p>
+        </li>
+        <li class="mb-10 ml-6">
+          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+            <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+            </svg>
+          </span>
+          <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Database Management</h3>
+          <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Learning the basics of database design, querying, and integration into web applications.</p>
+        </li>
+        <li class="mb-10 ml-6">
+          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+            <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+            </svg>
+          </span>
+          <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Version Control and Collaboration</h3>
+          <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Mastering Git for version control and collaboration in team-based coding projects.</p>
+        </li>
+        <li class="mb-10 ml-6">
+          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+            <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+            </svg>
+          </span>
+          <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Building Web Applications</h3>
+          <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Hands-on experience in developing dynamic web applications with frameworks like React or Angular.</p>
+        </li>
+        <li class="mb-10 ml-6">
+          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+            <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+            </svg>
+          </span>
+          <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Software Testing and Debugging</h3>
+          <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Learning the art of writing test cases and debugging code effectively.</p>
+        </li>
+        <li class="ml-6">
+          <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+            <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+            </svg>
+          </span>
+          <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Project Work</h3>
+          <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Undertaking real-world coding projects under the guidance of mentors to apply acquired skills.</p>
+        </li>
+          </ol>
+        </div>
+        <div class="col-md-6">
+          <img src="assets/img/course-details-tab-5.png" alt="Illustration" class="w-full">
+        </div>
+      </div>
+    </section>
+  
+    <!-- Benefits Section -->
+    <section class="bg-white py-12">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-semibold text-center mb-6">Benefits</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="bg-gray-100 rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold mb-4">Career Readiness</h3>
+            <p class="text-gray-600">Upon completing the program, participants will possess the skills needed to pursue
+              entry-level software development positions or continue their education in computer science.</p>
+          </div>
+          <div class="bg-gray-100 rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold mb-4">Portfolio Development</h3>
+            <p class="text-gray-600">The program's project work will provide you with an impressive portfolio that
+              showcases your coding abilities to potential employers.</p>
+          </div>
+          <div class="bg-gray-100 rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold mb-4">Confidence and Competence</h3>
+            <p class="text-gray-600">As you progress through the program, you will gain confidence in your coding skills
+              and a strong foundation to tackle more advanced programming challenges.</p>
+          </div>
+          <div class="bg-gray-100 rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold mb-4">Networking Opportunities</h3>
+            <p class="text-gray-600">Engaging with mentors and peers in a collaborative environment opens doors to
+              valuable networking opportunities within the tech industry.</p>
+          </div>
+          <div class="bg-gray-100 rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold mb-4">Continued Support</h3>
+            <p class="text-gray-600">Beyond the 12 weeks, our mentorship doesn't end. Graduates will have access to alumni
+              support, industry insights, and job placement assistance.</p>
+          </div>
+          <div class="bg-gray-100 rounded-lg shadow-md p-6">
+            <h3 class="text-xl font-semibold mb-4">Personal Growth</h3>
+            <p class="text-gray-600">Besides technical skills, our program fosters personal growth 
+              and instills problem-solving, critical thinking, and effective communication abilities 
+              that are essential in the software development profession.</p>
+          </div>
+          <!-- Add more benefits as needed -->
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Contact Us</h3>
+            <p>
+            <br>
+             Main Campus, Off Thika Road - Ruiru
+            <br>
+            <br>
+            P.O. Box 2768 00200, Nairobi.
+            <br>
+
+              <strong>Phone:</strong> all: 0719034500 or
+
+              WhatsApp: 0706622557
+              Zetech University,<br>
+              <strong>Email:</strong> Email: info@zetech.ac.ke
+              <br>
+            </p>
+          </div>
+  
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Courses</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Events</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Contact</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Programs</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Data Science</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">UX/UI Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Digital Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4 style="color: beige;">Join Our Newsletter</h4>
+            <p>Subscribe to our newsletter to receive updates about our latest courses and events.</p>
+            <form action="#" method="post">
+              <input type="email" name="email" required><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container d-md-flex py-4">
+      <div class="me-md-auto text-center text-md-start">
+        <div class="credits">
+          &copy; 2023 Zetech University. All Rights Reserved
+        </div>
+      
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="https://twitter.com/ZetechUni" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/ZetechUniv" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/zetech_university/" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/school/zetech-university-kenya/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://www.youtube.com/@ZetechUni" class="youtube"><i class="bx bxl-youtube"></i></a>
+
+      </div>
+    </div>
+  </footer>
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
