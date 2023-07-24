@@ -8,7 +8,6 @@ Welcome to the Coding Program School Portfolio! This website showcases the codin
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Features](#features)
-- [Demo](#demo)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -29,7 +28,7 @@ To view the portfolio locally or contribute to the project, follow these steps:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/coding-program-portfolio.git
+git clone https://github.com/vic-mwenda/prog-web
 ```
 
 2. Navigate to the project directory:
@@ -45,10 +44,6 @@ cd coding-program-portfolio
 - Interactive and responsive design
 - Project cards with project details and links to live demos
 - Sections for different types of projects (e.g., web development, JavaScript applications, etc.)
-
-## Demo
-
-View a live demo of the portfolio [here](https://your-username.github.io/coding-program-portfolio).
 
 ## Contributing
 
