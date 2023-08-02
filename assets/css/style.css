@@ -137,12 +137,12 @@ h6 {
 }
 
 /**
-* Get Startet Button 
+* Get Started Button 
 */
-.get-started-btn {
+.get-started-btn  {
   margin-left: 22px;
   background: #4154f1;
-  color: #fff;
+  color: #fff !important;
   border-radius: 50px;
   padding: 8px 25px;
   white-space: nowrap;
@@ -736,6 +736,7 @@ body{
 	box-sizing: border-box;
 	font-family: 'Barlow Semi Condensed', sans-serif;
 }
+
 a:link,a:active,a:visited,a:hover{
 	color:#3f51b5;
 }
